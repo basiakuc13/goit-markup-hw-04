@@ -46,7 +46,6 @@ table {
 body {
   font-family: var(--main-font-style);
   background-color: var(--color-white);
-  width: 1440px;
   margin: auto;
 }
 h1,
@@ -237,9 +236,10 @@ a:focus {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-align: center;
+  margin-bottom: 72px;
 }
 .title__what-doing--position {
-  margin-bottom: 72px;
+
 }
 .img-what-doing {
   width: 360px;
@@ -343,7 +343,7 @@ a:focus {
 }
 
 
-/* SECTION CUSTOMERS */ 
+/* SECTION CUSTOMERS */ /* SECTION CUSTOMERS */  /* SECTION CUSTOMERS */ 
 
 .title__customers {
 color: var(--brand-color);
@@ -373,7 +373,7 @@ fill: var(--color-ocean);
 border: 1px solid var(--color-ocean);
 }
 
-/* SECTION FOOTER */
+/* SECTION FOOTER */ /* SECTION FOOTER */ /* SECTION FOOTER */
 
 .footer {
   background: var(--brand-color);
@@ -425,11 +425,13 @@ border: 1px solid var(--color-ocean);
 }
 .footer__icon--position {
   display: flex;
-  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
 }
 .footer__icon {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 .footer-media-items:hover {
   background-color: #31d0aa;
@@ -438,8 +440,10 @@ border: 1px solid var(--color-ocean);
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  padding: 12px;
   background-color: var(--color-iris);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer__icon--background:hover {
   background-color: #31d0aa;
@@ -522,3 +526,8 @@ border: 1px solid #E7E9FC
 
 
 
+.teikony {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
